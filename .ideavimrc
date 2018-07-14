@@ -1,0 +1,53 @@
+let mapleader=' '
+set showmode
+set hlsearch
+
+" exit insert mode 
+inoremap jj <ESC>
+
+" move to the start of line
+nnoremap H ^ 
+
+" move tho the end of line 
+nnoremap L $ 
+
+" Redo 
+nnoremap U <C-r>
+
+nnoremap <Space>/ /
+
+
+" move between tab
+nnoremap tn gt 
+nnoremap tp gt
+
+" Window operation
+nnoremap <Leader>ww <C-W>w
+nnoremap <Leader>wd <C-W>c
+nnoremap <Leader>wj <C-W>j
+nnoremap <Leader>wk <C-W>k
+nnoremap <Leader>wh <C-W>h
+nnoremap <Leader>wl <C-W>l
+nnoremap <Leader>ws <C-W>s
+nnoremap <Leader>w- <C-W>s
+nnoremap <Leader>wv <C-W>v
+nnoremap <Leader>w\| <C-W>v
+
+nnoremap <Leader>ga :action GotoAction<CR>
+
+" resource vimrc
+nnoremap <Leader>rs :source ~/.ideavimrc<CR>
+
+"intellij actions 
+nnoremap <Space>d :action QuickJavaDoc<CR>
+nnoremap <Space>s :action FileStructurePopup<CR>
+nnoremap / :action Find<CR>
+nnoremap ; :action AceAction<CR>
+nnoremap <Space>o :action GotoClass<CR>
+nnoremap <Space>O :action GotoFile<CR>
+nnoremap <Space>d :action CloseContent<CR>
+nnoremap <Space>e :action RecentFiles<CR>
+
+
+
+
